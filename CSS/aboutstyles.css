@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    border-bottom: 2px solid #ddd;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.profile-icon {
+    font-size: 24px;
+}
+
+/* About Section */
+.about-depression {
+    padding: 40px;
+    background-color: #f9f9f900;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows flexibility for smaller screens */
+    gap: 20px;
+}
+
+.text-content {
+    flex: 1;    
+    max-width: 50%; /* Adjust width of the text section */
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.text-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.start-test-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #f5a623;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-test-btn:hover {
+    background-color: #e58a20;
+}
+
+/* Image Content */
+.image-content {
+    flex: 1;
+    max-width: 40%; /* Adjust width of the image section */
+    text-align: center;
+    margin-top: 100px;
+}
+
+.symptoms-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('background.png'); /* Path to your uploaded image */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+}
+
+
+/* Navbar */
+.navbar{
+    background-color: white;
+    position: fixed;
+    padding: 0 2rem ;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    border-bottom: 2px  solid black;
+    align-items: center;
+}
+.nav-logo img{
+    height:50px;
+    width:auto;
+    /* margin-left: 3rem; */
+}
+.navbar.nav-option{
+    list-style-type: none; 
+    display: flex;
+    gap: 2rem; 
+}
+.nav-option li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-icons{
+    display: flex;
+    gap: 2rem;
+    align-items: center; 
+    font-size: 1.5rem;
+    margin: 0 15px;
+    /* overflow: visible; */
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+a:hover{
+    color: blueviolet;
+    font-weight: bold;
+}
+.pricebtn{
+    background-color: yellow;
+    padding: 0.5rem 1rem;
+    border:none;
+    outline: none;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.pricebtn:hover{
+    color: #fff;
+    background-color: blueviolet;
+    transform: scale(1.05); 
+    transform-origin: center;
+}
+.pricebtn:active{
+    scale: 0.95;
+}
+.toggle_btn i{
+    cursor: pointer;
+    display: none;
+    padding: 0.5rem; 
+    font-size: 2rem;
+}
+.toggle_btn:hover {
+    background-color: rgb(240, 204, 240);
+    border-radius:50%;
+}
+
+/* Tests Section */
+.tests-section {
+    padding: 10px 20px;
+    background-color: #ffffff00;
+    border-top: 2px solid #dddddd00;
+    display: flex; /* Initially hidden */
+}
+
+.tests-section .test {
+    margin-bottom: 20px;
+    padding-left: 10px; /* Adds a bit of space from the left */
+}
+
+.tests-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px; /* Adds space below the heading */
+}
+
+.tests-section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-left: 20px; /* Adds additional space from the left for the paragraph */
+}
+
+/* Optional Styling for Visual Appeal */
+.tests-section {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a slight shadow to the section */
+    border-radius: 10px; /* Rounds the corners of the section */
+}

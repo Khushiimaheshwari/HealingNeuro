@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Images/session_background.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Title {  
+    position: fixed;    
+    top: 0;           
+    left: 0;           
+    width: 100%;     
+    z-index: 1000;   
+    text-align: center; 
+    margin-top: 26px;
+    padding: 10px 0;  
+    background-color: transparent;
+}  
+
+h1 {  
+    margin: 0; 
+    font-size: 52px; 
+    color: #984fff;  
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7); 
+}
+
+.main-container{
+    background-color: #f9f8ff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.729);
+    padding: 20px;
+    height: 55vh;
+    width: 80%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.condition {
+    background-color: #f9eebe;
+    border: 2px solid #fee989;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.168);
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 1050px;
+    height: 44vh;
+    text-align: center;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    display: flex; 
+    transition: all 0.5s ease;
+    transition: transform 0.5s ease-in-out;
+    overflow-x: auto; 
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.condition h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.condition p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.condition button {
+    background-color: #027b6f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.condition button:hover {
+    background-color: #027b6f;
+}
+
+/*
+ Transition for sliding content 
+
+.content.hidden {
+    opacity: 0;
+    display: none;
+}
+
+.content.visible {
+    opacity: 1;
+    display: block;
+} 
+
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+.agree-button, .continue-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #027b6f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+*/
+.content {
+    transition: opacity 0.5s ease;
+}
+

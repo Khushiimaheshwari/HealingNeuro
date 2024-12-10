@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2? family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.nav {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    width: 95%;
+    margin: auto;
+    padding-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 120px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: -60px;
+}
+.content-section{
+    float: left;
+    width: 50%;
+}
+.image-section{
+    float: right;
+    width:50%;
+}
+.image-section img{
+    width: 100%;
+    height: auto; 
+}
+.content-section .title{
+    margin-top: 2px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content h3{
+    margin-top: 30px;
+    color:#055d54;
+    font-size: 30px;
+}
+.content-section .content p{
+    margin-top: 30px;
+    font-family: sans-serif;
+    line-height:1.5;
+    font-size:20px;
+}
+.content-section .content .button{
+    margin-top:40px;
+}
+.container.social-section{
+    float: left;
+}
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+    background-color: #055d54;
+    color:#fff;
+}
+/* .content-section .social{
+    margin: 40px 40px;
+}
+.content-section .social i{
+    color: #a52a2a;
+    font-size: 30px;
+    padding:0px 10px;
+}
+.content-section .social i:hover{
+    color: #3d3d3d;
+} */
+.social{
+    margin-top: -80px;
+    display:flex;
+    justify-content:left;
+    margin-left: 150px;
+}
+.social  img{
+    height:30px;
+    width:30px;
+    margin-left: 20px;
+    margin-top: -10px;
+   
+}  
