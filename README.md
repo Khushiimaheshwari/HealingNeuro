@@ -1,7 +1,7 @@
 # HealingNeuro - A Depression Monitoring System (DMS) 🌟
 
 ## Overview  
-The **Depression Monitoring System (DMS)** is a web-based application designed to be a supportive tool for professionals to promote mental health and well-being, aligning with the **United Nations Sustainable Development Goal 3 (Good Health and Well-Being)**. It leverages **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques to detect depression and offers tailored recovery resources to users.
+The **Depression Monitoring System (DMS)** is a web-based application designed to be a supportive tool for psychotherapists to promote mental health and well-being, aligning with the **United Nations Sustainable Development Goal 3 (Good Health and Well-Being)**. It leverages **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques to detect depression and offers tailored recovery resources to users.
 
 ## Features  
 - **Weekly Assessments**: Divided into three sessions with comprehensive questionnaires.  
@@ -15,7 +15,6 @@ The **Depression Monitoring System (DMS)** is a web-based application designed t
 
 ## Technology Stack  
 - **Frontend**: HTML, CSS, and JavaScript.  
-- **Backend**: Python with Flask.  
-- **Machine Learning**: Rating-based and NLP for textual analysis.  
-- **Visualization**: Streamlit for interactive user interfaces.  
+- **Backend**: Python, NodeJs Flask.  
+- **Machine Learning**: Rating-based and NLP for textual analysis.   
 - **Database**: SQLite/MySQL (for storing user progress and depression score).  
