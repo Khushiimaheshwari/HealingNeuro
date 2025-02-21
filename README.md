@@ -1,4 +1,4 @@
-# Depression Monitoring System (DMS) 🌟
+# HealingNeuro - A Depression Monitoring System (DMS) 🌟
 
 ## Overview  
 The **Depression Monitoring System (DMS)** is a web-based application designed to be a supportive tool for professionals to promote mental health and well-being, aligning with the **United Nations Sustainable Development Goal 3 (Good Health and Well-Being)**. It leverages **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques to detect depression and offers tailored recovery resources to users.
