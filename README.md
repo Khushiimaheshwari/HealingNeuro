@@ -15,6 +15,6 @@ The **Depression Monitoring System (DMS)** is a web-based application designed t
 
 ## Technology Stack  
 - **Frontend**: HTML, CSS, and JavaScript.  
-- **Backend**: Python, NodeJs Flask.  
+- **Backend**: Python, NodeJs, Flask.  
 - **Machine Learning**: Rating-based and NLP for textual analysis.   
-- **Database**: SQLite/MySQL (for storing user progress and depression score).  
+- **Database**: SQLite (for storing user progress and depression score).  
