@@ -1,6 +1,0 @@
-POST http://127.0.0.1:5000/predict
-Content-Type: application/json  
-
-{  
-    "text": "I want to stay in my bed and sleep all day and ignore everyone forever. This is the worst day ever. I hate this place."  
-}
